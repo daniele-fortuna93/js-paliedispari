@@ -2,9 +2,16 @@
 #numeroutente,
 #numerocomputer,
 #somma,
-.vinto,
-.perso{
+#esito{
   font-size: 20px;
+  transition: 0.4s;
+}
+#sceltautente:hover,
+#numeroutente:hover,
+#numerocomputer:hover,
+#somma:hover,
+#esito:hover{
+  transform: scale(1.2);
 }
 #sceltautente{
   text-transform: capitalize;
@@ -29,6 +36,7 @@
   color: red;
 }
 span{
+  margin-left: 20px;
   text-align: center;
   display: inline-block;
   width: 80px;
