@@ -51,12 +51,11 @@ sommaPariDispari = pariOdispari(somma);
 var esito = document.getElementById('esito');
 if ( sommaPariDispari == pariDispari) {
   esito.className = "vinto";
-  esito = document.getElementById('esito').innerHTML = "Hai vinto!";
+  esito.innerHTML = "Hai vinto!";
 
 } else {
   esito.className = "perso";
-  esito = document.getElementById('esito').innerHTML = "Hai perso!"
-
+  esito.innerHTML = "Hai perso!"
 }
 
 document.getElementById('sceltautente').innerHTML = scelta;
