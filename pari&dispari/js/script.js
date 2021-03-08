@@ -4,7 +4,7 @@
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 // Dichiariamo chi ha vinto.
 
-// 1. L'utente sceglie pari o dispari
+// 1. L'utente sceglie pari o dispari ( con validazione )
 do {
   var scelta = prompt("Scegli pari o dispari.");
   var pariDispari = false;
@@ -17,7 +17,6 @@ do {
 // 2. L'utente sceglie un numero da 1 a 5 ( validazione dell'input)
 do {
   var numeroUtente = parseInt(prompt("Scegli un numero da 1 a 5"));
-
 } while ( isNaN(numeroUtente) || ( numeroUtente > 5 || numeroUtente < 1) );
 
 // 3. Creo una funzione per generare un numero random del computer da 1 a 5
@@ -58,6 +57,7 @@ if ( sommaPariDispari == pariDispari) {
   esito.innerHTML = "Hai perso!"
 }
 
+// 10. Riporto tutto nell'HTML
 document.getElementById('sceltautente').innerHTML = scelta;
 document.getElementById('numeroutente').innerHTML = numeroUtente;
 document.getElementById('numerocomputer').innerHTML = numeroComputer;
