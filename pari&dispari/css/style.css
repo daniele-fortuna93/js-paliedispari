@@ -1,0 +1,27 @@
+#sceltautente,
+#numeroutente,
+#numerocomputer,
+#somma,
+.vinto,
+.perso{
+  font-size: 20px;
+}
+#sceltautente{
+  text-transform: capitalize;
+  color: grey;
+}
+#numeroutente{
+  color: blue;
+}
+#numerocomputer{
+  color: orange;
+}
+#somma{
+  color: purple;
+}
+.vinto{
+  color: green;
+}
+.perso{
+  color: red;
+}
